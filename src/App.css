@@ -1,0 +1,25 @@
+.button {
+  font-size: 12px;
+  padding: 10px 20px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.dark-color {
+  position: absolute;
+  right: -25rem;
+  bottom: -3rem;
+  z-index: 2;
+  filter: blur(100px);
+  height: 1000px;
+  width: 1300px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M791.5 558q-132.5 58-140 221t-111 39q-103.5-124-262-83T125 638q5-138 77-220.5t119.5-201q47.5-118.5 145-16t137 149Q643 396 783.5 448t8 110Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%2308080a%22 d=%22M791.5 558q-132.5 58-140 221t-111 39q-103.5-124-262-83T125 638q5-138 77-220.5t119.5-201q47.5-118.5 145-16t137 149Q643 396 783.5 448t8 110Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
